@@ -2,7 +2,7 @@ import './landing.scss'
 import React from 'react'
 import Image from "next/image";
 import { Button } from "@/components/ui/button"
-import landing from "../../../public/assets/images/pictures/landing2.jpeg";
+import landing from "../../../public/assets/images/pictures/landing21.jpeg";
 
 const Landing = () => {
   return (
