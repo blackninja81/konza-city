@@ -16,7 +16,7 @@ const Footer = () => {
           />
       </div>
       <div className='footer-link'>
-        <h4>External Links</h4>
+        <h3>External Links</h3>
         <ul>
           <li><a href='/'>Kenya Ministry of ICT</a></li>
           <li><a href='/about'>Kenya Revenue Authority</a></li>
