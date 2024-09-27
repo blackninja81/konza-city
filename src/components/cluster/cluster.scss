@@ -1,7 +1,19 @@
+@font-face {
+    font-family: "Cormorant";
+    src: url("../../app/fonts/Martel/Martel-Regular.ttf");
+    font-weight: normal;
+  }  
+  @font-face {
+    font-family: "Triong";
+    src: url("../../app/fonts/Trirong/Trirong-Regular.ttf") format("ttf");
+    font-weight: normal;
+  }
+
 .cluster-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Cormorant;
     padding: 20px;
 }
 .card-container{
@@ -32,8 +44,11 @@
     text-align: center;
     h3{
         font-weight: bold;
-        font-size: 25px;
+        font-size: 15px;
         padding: 20px 0;
+    }
+    p{
+        font-size: 13px;
     }
 }
 Button{
