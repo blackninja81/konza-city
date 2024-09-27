@@ -1,0 +1,88 @@
+.footer-container {
+    padding: 20px;
+    display: grid;
+    overflow: hidden;
+    text-align: center;
+    font-family: "Cormorant";
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    grid-template-columns: repeat(5, 1fr);
+    .main-logo {
+      width: 60%;
+      padding: 0 20px;
+      // float: right;
+      object-fit: contain; 
+    }
+    .footer-contact{
+      .socials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        img{
+          
+        }
+      }
+    }
+  }
+  
+  .footer-logo img {
+    scale: 1;
+    object-fit: cover;
+  }
+  
+  .open-hours,
+  .footer-link,
+  .footer-contact {
+    flex: 1;
+    line-height: 50px;
+    margin: 0 10px;
+  }
+  
+  .footer-link ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-link ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-link ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-link ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+@media (max-width: 1200px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    .main-logo{
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+@media (max-width: 480px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    .main-logo{
+      width: 100%;
+    }
+  }
+}
