@@ -172,7 +172,7 @@ const Navbar = () => {
                   duration={500}
                   onClick={closeMobileMenu}
                 >
-                  Services
+                  Discover konza
                 </ScrollLink>
               </li>
               <li>
@@ -185,7 +185,7 @@ const Navbar = () => {
                   duration={500}
                   onClick={closeMobileMenu}
                 >
-                  Pricing
+                  Projects
                 </ScrollLink>
               </li>
               <li>
@@ -198,7 +198,7 @@ const Navbar = () => {
                   duration={500}
                   onClick={closeMobileMenu}
                 >
-                  Gallery
+                  Resource Center
                 </ScrollLink>
               </li>
               <li>
@@ -211,25 +211,12 @@ const Navbar = () => {
                   duration={500}
                   onClick={closeMobileMenu}
                 >
-                  FAQ
+                  Contact Us
                 </ScrollLink>
               </li>
               <li>
-            <ScrollLink
-              to="contact"
-              spy={true}
-              smooth={true}
-              href="#"
-              offset={-100}
-              duration={500}
-              onClick={closeMobileMenu}
-            >
-              Contact
-            </ScrollLink>
-          </li>
-              <li>
-                <Link href="/about">
-                  <Button>Sourcing Laundry Machines</Button>
+                <Link href="#">
+                  <Button>IASAP 2024 NAIROBI</Button>
                 </Link>
               </li>
             </ul>
