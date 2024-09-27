@@ -1,4 +1,15 @@
+@font-face {
+    font-family: "Cormorant";
+    src: url("../../app/fonts/Martel/Martel-Regular.ttf");
+    font-weight: normal;
+  }  
+  @font-face {
+    font-family: "Triong";
+    src: url("../../app/fonts/Trirong/Trirong-Regular.ttf") format("ttf");
+    font-weight: normal;
+  }
 .opportunity-container{
+    font-family: Cormorant;
     text-align: center;
     padding: 20px 0;
     background-color: #f6f6f5;

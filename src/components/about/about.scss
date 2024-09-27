@@ -1,11 +1,23 @@
 $background-1: #f0eee9;
 $background-2: #f6f6f5;
 
+@font-face {
+    font-family: "Cormorant";
+    src: url("../../app/fonts/Martel/Martel-Regular.ttf");
+    font-weight: normal;
+  }  
+  @font-face {
+    font-family: "Triong";
+    src: url("../../app/fonts/Trirong/Trirong-Regular.ttf") format("ttf");
+    font-weight: normal;
+  }
+
 .about-container{
     padding: 20px;
     display: grid;
     justify-content: center;
     align-items: center;
+    font-family: Cormorant;
     background-color: $background-2;
     grid-template-columns: repeat(auto-fill, minmax(150px, 650px));
 .about-text{
@@ -14,5 +26,6 @@ $background-2: #f6f6f5;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 15px;
 }
 }
