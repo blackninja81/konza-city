@@ -53,24 +53,18 @@ $primary-text-1: #008234;
       z-index: 2;
       padding: 0 20px;
       h1{
-<<<<<<< HEAD
         font-size: clamp(3.125rem, 0.1431rem + 9.542vw, 6.25rem);
         line-height: 70px;
         word-spacing: 5px;
-=======
         font-size: 60px;
         line-height: 100px;
         word-spacing: 10px;
->>>>>>> 87ca86e5bbd799d9c2a692d6d1427fd3d6fc3428
         color: $primary-color;
         font-weight: bold;
       }
       p{
-<<<<<<< HEAD
         font-size: clamp(0.9375rem, 0.0429rem + 2.8626vw, 1.875rem);
-=======
         font-size: 25px;
->>>>>>> 87ca86e5bbd799d9c2a692d6d1427fd3d6fc3428
         line-height: 50px;
         padding: 20px 0;
       }
