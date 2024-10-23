@@ -7,21 +7,21 @@ const clusters = [
       id: 1,
       imageSrc: '/assets/images/pictures/konza1.jpg',
       altText: 'monitor-logo',
-      title:"TECHNOLOGY",
+      title:"Technology",
       description: 'These are parcels designed for Research and Development Centres, Outsourcing campuses BPO/ITES,Innovation Parks,Technology business Incubation and Accelarion Parks,Business Continuity Centre and other investor driven Science Technology and Innovation facilities.'
     },
     {
       id: 2,
       imageSrc: '/assets/images/pictures/konza2.jpg',
       altText: 'microscope-logo',
-      title:"EDUCATION",
+      title:"Education",
       description: 'This project entails the universities in Konza Technopolis which are envisioned as a special place where innovative groups develop and apply modern technology; as a place where higher education and industry come together, and a site of life-long learning.'
     },
     {
       id: 3,
       imageSrc: '/assets/images/pictures/konza3.jpg',
       altText: 'gears-logo',
-      title:"COMMERCIAL AND RESIDENTIAL",
+      title:"Commercial and Residential",
       description: 'These include general and Affordable housing for people workingand living in Konza Technopolis and affordable housing for students. Opportunities also exist for mixed use commercial facilities such as office buildings and trading facilities.'
     }
   ];

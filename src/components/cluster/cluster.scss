@@ -36,7 +36,8 @@
     background-color: white;
 .cluster-logo{
     img{
-        border-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 }
 .cluster-text{
@@ -44,11 +45,11 @@
     text-align: center;
     h3{
         font-weight: bold;
-        font-size: 15px;
+        font-size: 20px;
         padding: 20px 0;
     }
     p{
-        font-size: 13px;
+        font-size: 15px;
     }
 }
 Button{

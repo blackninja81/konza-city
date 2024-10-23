@@ -18,7 +18,7 @@ const Landing = () => {
     <span className="text">
         <h1>Konza City</h1>
         <p>
-        DISCOVER KONZA TECHNOPOLIS -A GLOBAL TECHNOLOGY AND INNOVATION HUB
+        Discover Konza Technopolis -A Global Technology and Innovation Hub
       </p>
         <Button className='nav-contact-us'>Learn More</Button>
           </span>

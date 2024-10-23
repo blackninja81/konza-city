@@ -40,7 +40,7 @@ const ClusterCard = () => {
             />
           </div>
           <div className='cluster-text'>
-            <h2>{cluster.title}</h2>
+            <h3><b>{cluster.title}</b></h3>
             <p>{cluster.description}</p>
           </div>
         </div>

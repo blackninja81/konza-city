@@ -3,6 +3,7 @@ import Opportunity from "@/components/opportunities/Opportunity";
 import Landing from "@/components/landing/Landing";
 import About from "@/components/about/About";
 import Cluster from "@/components/cluster/Cluster";
+import Stats from "@/components/stats/Stats";
 import Partner from "@/components/partners/Partner";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
     <Landing />
     <About/>
     <Cluster/>
+    <Stats/>
     <Opportunity/>
     <Partner/>
   </div>
